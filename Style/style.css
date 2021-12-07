@@ -1,0 +1,53 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+body, html {
+	background-color: #ffffff;
+}
+
+.generalTitleText {
+	color: rgb(199, 199, 199);
+	text-align: center;
+	font-family: Sans-Serif;
+	margin-top: 5vh;
+	font-size: 20px
+}
+
+.generalSection {
+	background-color: #ffffff;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	height: 95vh;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	width: 80%;
+}
+
+img {
+	box-shadow: 5px 5px 20px rgb(0,0,0,0.2);
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+	background: white;
+	text-align: center;
+}
+
+.modifier {
+	display: flex;
+	flex-direction: column;
+	align-items: space-between;
+	font-family: Sans-Serif;
+	background: rgb(231, 231, 231);
+	border-radius: 20px;
+	padding: 20px;
+}
+
+input[type=color] {
+	border: solid rgb(0,0,0,0.5) 1px;
+	border-radius: 5px;
+}

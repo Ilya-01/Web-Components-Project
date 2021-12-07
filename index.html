@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Avatar Generator</title>
+	<link href="Style/style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+	<h1 class="generalTitleText">Click on the avatar to download the image</h1>
+		<div class="generalSection">
+			<a id="download-link" download="generated-avatar">
+				<img id="avatar" alt="Avatar Image" />
+			</a>
+			
+			<div class="modifier">
+				<div>
+					<label for='fgColor'>Text Color:</label>
+					<input type="color" id="fgColor" value="#FFFFFF"/>
+				</div>
+				
+				<div style="margin-bottom: 6px">
+					<label for='bgColor'>Background Color:</label>
+					<input type="color" id="bgColor"  value="#DBF970"/>
+				</div>
+				
+				<div>
+					<label for='fgColor'>Avatar Text:</label>
+					<input type="text" id="text" value="IP" style="background: #cacaca; height: 20px; border-radius: 4px;"/>
+				</div>
+				
+				<button onclick="generateAvatar()" style="margin: 20px; padding: 10px 0; border-radius: 20px; cursor: pointer;">OK</button>
+			</div>
+
+		</div>
+	<script src="Script/script.js"></script>
+</body>
+</html>
